@@ -9,6 +9,5 @@ $(function (){
 function mxWndClose() {
     document.getElementById("mx-wnd-wnd").className="bounceOutDown animated";
     setTimeout("document.getElementById('mx-wnd-container').style.display='none'", 1000);
-    //document.getElementById('mx-wnd-container').style.display='none';
 }
 
